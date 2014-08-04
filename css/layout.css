@@ -44,16 +44,22 @@ section article:nth-child(2){
 }
 
 section article:nth-child(3){
-  margin-top: 2px;
+  width: 345px;
+  height: 65px;
+  margin: 0 auto;
   background: linear-gradient(rgb(176, 60, 0), rgb(246, 77, 0));
   -webkit-transform: rotateX(-10deg); /* Chrome, Safari, Opera  */
   transform: rotateX(-10deg);
 }
 
 section article:nth-child(4){
+  width: 345px;
+  height: 50px;
+  margin: 0 auto;
+  margin-top: -2px;
   background: #fe7400;
-  -webkit-transform: rotateX(10deg); /* Chrome, Safari, Opera  */
-  transform: rotateX(10deg);
+  -webkit-transform: rotateX(15deg); /* Chrome, Safari, Opera  */
+  transform: rotateX(15deg);
 }
 
 section article:nth-child(5){
@@ -62,7 +68,17 @@ section article:nth-child(5){
 
 section article:nth-child(6){
   background: #f3c900;
-  transform: perspective()
+}
+
+section article:nth-child(7){
+  width: 346px;
+  height: 20px;
+  margin: 0 auto;
+  margin-top: -2px;
+  background: linear-gradient(#715c00, #553f00 90%);
+  border: 1px solid #493301;
+  -webkit-transform: rotateX(-15deg); /* Chrome, Safari, Opera  */
+  transform: rotateX(-15deg);
 }
 
 
