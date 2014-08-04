@@ -18,6 +18,7 @@ body{
 }
 
 section{
+  position: relative;
   margin: 0 auto;
   width: 350px;
   height: auto;
@@ -81,11 +82,21 @@ section article:nth-child(7){
   transform: rotateX(-15deg);
 }
 
+i{
+  position: absolute;
+  font-size: 15em;
+  color: white;
+  bottom: 0;
+  right: -100px;
+}
 
 
 
 /* Icons
 ================================================== */
+.icon-tick6:before {
+	content: "\e600";
+}
 
 
 
