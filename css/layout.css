@@ -41,11 +41,15 @@ section article:nth-child(2){
 }
 
 section article:nth-child(3){
-  background-image: radial-gradient(ellipse , #b03c00 ,  #f64d00 60%);
+  background: linear-gradient(rgb(176, 60, 0), rgb(246, 77, 0));
 }
 
-section article:nth-child(2){
-  background: #ff6100;
+section article:nth-child(4){
+  background: #fe7400;
+}
+
+section article:nth-child(5){
+  background: linear-gradient(#f9be00, f4a300);
 }
 
 
